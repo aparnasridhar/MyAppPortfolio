@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">My App Portfolio</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="heading">The Cat In The Hat Apps</string>
     <string name="action_settings">Settings</string>
 
     <!--Button Names !-->
@@ -13,15 +13,5 @@
     <string name="sally_button">Sally</string>
     <string name="nick_button">Nick</string>
     <string name="dr_seuss_button"><b>Dr. Seuss</b></string>
-
-
-    <!-- Toast Messages for Button Clicks !-->
-    <string name="cat_button_toast">Cat Button Clicked</string>
-    <string name="thing_one_button_toast">Thing 1 Button Clicked</string>
-    <string name="thing_two_button_toast">Thing 2 Button Clicked</string>
-    <string name="thingamajing_button_toast">Thingamajigger Button Clicked</string>
-    <string name="sally_button_toast">Sally Button Clicked</string>
-    <string name="nick_button_toast">Nick Button</string>
-    <string name="dr_seuss_button_toast">Dr. Seuss clicked</string>
 
 </resources>

@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener{
 
-    public Toast mAppToast;
+    private Toast mAppToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,43 +45,19 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         //Switch based on button ID
+        //Currently they all call displayToast - later they might launch intents
         switch(v.getId()) {
             case R.id.catButton:
-            {
-                displayToast(getString(R.string.cat_button_toast));
-                break;
-            }
-
             case R.id.thingOneButton:
-            {
-                displayToast(getString(R.string.thing_one_button_toast));
-                break;
-            }
             case R.id.thingTwoButton:
-            {
-                displayToast(getString(R.string.thing_two_button_toast));
-                break;
-            }
             case R.id.thingaButton:
-            {
-                displayToast(getString(R.string.thingamajing_button_toast));
-                break;
-            }
             case R.id.sallyButton:
-            {
-                displayToast(getString(R.string.sally_button_toast));
-                break;
-            }
             case R.id.nickButton:
-            {
-                displayToast(getString(R.string.nick_button_toast));
-                break;
-            }
             case R.id.doctorButton:
-            {
-                displayToast(getString(R.string.dr_seuss_button_toast));
+                displayToast(((Button)v).getText().toString());
                 break;
-            }
+            default:
+                break;
         }
     }
 

@@ -5,4 +5,23 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+    <!--Red Button Style-->
+    <style name="RedButtonStyle">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_margin">@dimen/buttonMargin</item>
+        <item name="android:minWidth">@dimen/buttonWidth</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:textSize">@dimen/textSizeBig</item>
+    </style>
+
+    <!--Udacious Button Style-->
+    <style name="UdaciousButtonStyle">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_margin">@dimen/buttonMargin</item>
+        <item name="android:minWidth">@dimen/buttonWidth</item>
+        <item name="android:background">@color/udacity_orange</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
 </resources>
